@@ -1,0 +1,11 @@
+# terraform.tfvars
+
+# Personal Access Token for the DigitalOcean API
+do_token = "1111111111111111111111111111111111111111111111111111111111111111"
+
+# Region to create the cluster in
+do_region = "fra1"
+
+# Kubernetes version. Kubeflow manifest install is tested with K8s 1.19.
+# See https://github.com/kubeflow/manifests#prerequisites
+cluster_version = "1.19.15-do.0"
